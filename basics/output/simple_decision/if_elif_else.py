@@ -1,4 +1,5 @@
-action = input("towards which direction should i paint? up, down, left or right. \n")
+print("towards which direction should i paint? up, down, left or right. \n")
+action= input()
 if (action == "up"):
   print("\n I am painting in the upward direction")
 elif (action == "down"):
@@ -9,4 +10,5 @@ elif (action == "right"):
   print("\n I am painting in the right direction")
 else:
   print("\n I currently can not perform such a complicated task")
- 
+
+print("\n My masterpiece is completed, you can purchase it for 20 BTC only ;) ")
