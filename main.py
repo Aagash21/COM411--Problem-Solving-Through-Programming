@@ -4,8 +4,9 @@ print("please enter the second whole number")
 m = int(input())
 print("please enter the third whole number")
 v = int(input())
-e=0
 o=0
+e=0
+
 if (n % 2 == 0):
     ("\n{} is an even number".format(n))
     e=e+1
